@@ -89,4 +89,4 @@ T = 0.693 * (R1 + 2 * R2) * C1
 
 Utilize o software EasyEDA para projetar uma placa de circuito impresso (PCB) que acomode os componentes e facilite a montagem do circuito do oscilador com o IC 555.
 
-<img src="/img/ic555.jpg" alt="Circuito Oscilador">
+<img src="/img/ic555.png" alt="Circuito Oscilador">
