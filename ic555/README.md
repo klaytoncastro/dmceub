@@ -46,19 +46,7 @@ T = 1448.7ms
 
 - **Nota**: Certifique-se de verificar a polaridade correta do LED e do capacitor e conecte os pinos do IC 555 Timer de acordo com o modo astável.
 
-### Cálculo do Período
-O período do oscilador astável com o IC 555 Timer é determinado pela seguinte fórmula:
-
-```
-T = 0.693 * (R1 + 2 * R2) * C1
-```
-
-- T: Período em segundos
-- R1: Resistor em ohms
-- R2: Resistor (potenciômetro) em ohms
-- C1: Capacitor em farads
-
-### Operação do IC 555
+## Operação do IC 555
 
 O IC 555 é um componente versátil que pode operar em diferentes modos para atender às necessidades de temporização e oscilação em projetos eletrônicos. A escolha do modo depende da aplicação específica e dos requisitos de temporização do circuito. Na tabela abaixo, temos a pinagem que define o modeo de operação do IC 555: 
 
@@ -85,7 +73,20 @@ No modo monoestável, o IC 555 é configurado como um temporizador de disparo ú
 
 No modo biestável, o IC 555 é configurado como um flip-flop, onde ele possui dois estados estáveis: alto e baixo. Ele é usado para criar uma lógica de comutação simples, onde a saída alterna entre estados alto e baixo em resposta a um gatilho externo. O estado de saída é alterado quando um gatilho externo é aplicado ao pino 2 (TRIG), ou o pino 4 (RESET) é usado para redefinir o estado. Este modo é frequentemente usado em aplicações de chaveamento e circuitos de controle de lógica simples.
 
+### Exemplo de Cálculo do Período
+O período do oscilador astável com o IC 555 Timer é determinado pela seguinte fórmula:
+
+```
+T = 0.693 * (R1 + 2 * R2) * C1
+```
+
+- T: Período em segundos
+- R1: Resistor em ohms
+- R2: Resistor (potenciômetro) em ohms
+- C1: Capacitor em farads
 
 ## Tarefa: 
 
 Utilize o software EasyEDA para projetar uma placa de circuito impresso (PCB) que acomode os componentes e facilite a montagem do circuito do oscilador com o IC 555.
+
+![Circuito Oscilador](/img/circuito_oscilador.jpg)
