@@ -1,2 +1,1 @@
-# dmc
-Design Mediado por Computador
+DMC - Design Mediado por Computador
