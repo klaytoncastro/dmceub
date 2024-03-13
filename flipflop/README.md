@@ -86,3 +86,15 @@ t = 0,7 * (10.000 + 100.000) * 0,0001
 = 0,7 * 11
 = 7,7 segundos
 ```
+
+## Atividade 1: 
+
+Utilize o software EasyEDA para projetar uma placa de circuito impresso (PCB) que acomode os componentes e facilite a montagem do circuito Flip Flop: 
+
+<img src="/img/flip_flop.png" alt="Circuito Flip Flop">
+
+## Atividade 2: 
+
+Utilize o software EasyEDA para projetar uma placa de circuito impresso (PCB) que acomode os componentes e facilite a montagem do circuito Flip Flop e acrescente um potenciômetro: 
+
+<img src="/img/flip_flop_potenciometro.png" alt="Circuito Flip Flop com Potênciometro">
