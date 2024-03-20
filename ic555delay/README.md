@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste projeto, exploraremos um circuito temporizador com atraso utilizando o IC 555 (Timer). Esse circuito gera atrasos controlados com base em unidades de tempo definidas pelos valores dos resistores e capacitores. O temporizador com atraso é amplamente utilizado em aplicações que exigem atrasos precisos, como sistemas de controle, acionamento de relés e muito mais.
+Neste projeto, exploraremos um circuito temporizador com atraso utilizando o IC 555 (*Timer*). Esse circuito gera atrasos controlados com base em unidades de tempo definidas pelos valores dos resistores e capacitores. O temporizador com atraso é amplamente utilizado em aplicações que exigem atrasos precisos, como sistemas de controle, acionamento de relés e muito mais.
 
 ## Projeto Esquemático
 

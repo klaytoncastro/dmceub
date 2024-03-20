@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste projeto trabalharemos com um circuito oscilador e o IC 555 (Timer), que gera pulsos intermitentes de saída com base em unidades de tempo definidas pelos valores de resistores e capacitores. Este tipo de circuito é frequentemente utilizado para criar sinais de temporização, gerar pulsos, ou piscar LEDs em uma taxa ajustável.
+Neste projeto trabalharemos com um circuito oscilador e o IC 555 (*Timer*), que gera pulsos intermitentes de saída com base em unidades de tempo definidas pelos valores de resistores e capacitores. Este tipo de circuito é frequentemente utilizado para criar sinais de temporização, gerar pulsos, ou piscar LEDs em uma taxa ajustável.
 
 ## Projeto Esquemático
 
