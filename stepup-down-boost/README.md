@@ -12,40 +12,40 @@ O design de cada conversor envolverá componentes específicos para manipular a 
 
 O conversor Step Up aumenta a tensão de entrada para uma tensão de saída maior, mantendo a potência quase constante. A operação é controlada pelo IC1, que regula a abertura do transistor Q1 para armazenar energia no indutor L1 e transferi-la para a carga através do capacitor C1.
 
-- **Componentes principais:**
+**Componentes principais:**
 
-L1: Indutor
-C1: Capacitor de saída
-D1: Diodo Schottky
-Q1: Transistor MOSFET
-R1: Resistor para feedback de tensão
-IC1: CI controlador de Boost
+- L1: Indutor
+- C1: Capacitor de saída
+- D1: Diodo Schottky
+- Q1: Transistor MOSFET
+- R1: Resistor para feedback de tensão
+- IC1: CI controlador de Boost
 
 ### Step Down (Redutor)
 
 O conversor Step Down reduz a tensão de entrada para uma tensão de saída menor. A energia é armazenada no indutor L2 pelo fechamento do transistor Q2 e depois liberada para a carga. O IC2 regula esse processo para manter a tensão de saída desejada.
 
-- **Componentes principais**:
+**Componentes principais**:
 
-L2: Indutor
-C2: Capacitor de saída
-D2: Diodo Schottky
-Q2: Transistor MOSFET
-R2: Resistor para feedback de tensão
-IC2: CI controlador de Buck
+- L2: Indutor
+- C2: Capacitor de saída
+- D2: Diodo Schottky
+- Q2: Transistor MOSFET
+- R2: Resistor para feedback de tensão
+- IC2: CI controlador de Buck
 
 ### Step Boost (Elevador-Redutor)
 
 O conversor Step Boost pode aumentar ou diminuir a tensão de entrada conforme necessário. Sua operação depende do controle do IC3, que ajusta o ciclo de trabalho do transistor Q3 para alternar entre modos de elevação e redução, utilizando L3 e C3 para estabilizar a saída.
 
-- **Componentes principais**:
+**Componentes principais**:
 
-L3: Indutor
-C3: Capacitor de saída
-D3: Diodo Schottky
-Q3: Transistor MOSFET
-R3: Resistor para feedback de tensão
-IC3: CI controlador de Boost-Buck
+- L3: Indutor
+- C3: Capacitor de saída
+- D3: Diodo Schottky
+- Q3: Transistor MOSFET
+- R3: Resistor para feedback de tensão
+- IC3: CI controlador de Boost-Buck
 
 ## Tarefa:
 
