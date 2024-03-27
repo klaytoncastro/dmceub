@@ -98,5 +98,3 @@ Utilize o software EasyEDA para projetar uma placa de circuito impresso (PCB) qu
 Utilize o software EasyEDA para projetar uma placa de circuito impresso (PCB) que acomode os componentes e facilite a montagem do circuito Flip Flop e acrescente um potenciômetro: 
 
 <img src="/img/flip_flop_potenciometro.png" alt="Circuito Flip Flop com Potênciometro">
-
-XL6009
