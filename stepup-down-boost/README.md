@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Neste projeto trabalharemos com o desenvolvimento de PCBs para três tipos principais de conversores DC-DC: Step Up, Step Down e Step Boost. Esses circuitos são fundamentais em eletrônica de potência para alimentação de dispositivos que requerem tensões diferentes da fornecida pela fonte de alimentação. Cada tipo de conversor tem sua aplicação, desde aumentar a tensão de entrada (Step Up), reduzi-la (Step Down) ou combinar ambas as funções em diferentes cenários (Step Boost). 
+Neste projeto trabalharemos com o desenvolvimento de PCBs para os tipos principais de conversores DC-DC: Step Up, Step Down e Step Boost. Esses circuitos são fundamentais em eletrônica de potência para alimentação de dispositivos que requerem tensões diferentes da fornecida pela fonte de alimentação. Cada tipo de conversor tem sua aplicação, desde aumentar a tensão de entrada (Step Up), reduzi-la (Step Down) ou combinar ambas as funções em diferentes cenários (Step Boost). 
 
 ## Projeto Esquemático
 
