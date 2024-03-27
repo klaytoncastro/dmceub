@@ -49,4 +49,4 @@ O conversor Step Boost pode aumentar ou diminuir a tensão de entrada conforme n
 
 ## Tarefa:
 
-Pesquise sobre os CIs LM2596 e LM3862, verifique seus datasheets e como podem ser utilizados para desenvolver o projeto. Utilize o software EasyEDA para projetar placas de circuito impresso (PCB) que acomodem os componentes para cada tipo de conversor. Considere a disposição eficiente dos componentes para minimizar interferências e perdas, a implantação de LEDs para sinalizar a operação dos circuito.  
+Pesquise sobre os CIs LM2596 e LM3862, verifique seus datasheets e como podem ser utilizados para desenvolver o projeto. Utilize o software EasyEDA para projetar placas de circuito impresso (PCB) que acomodem os componentes para cada tipo de conversor. Considere a disposição eficiente dos componentes para minimizar interferências e perdas, bem como a implantação de LEDs para sinalizar a operação dos circuitos.  
