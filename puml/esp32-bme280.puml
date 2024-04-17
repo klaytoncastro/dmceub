@@ -1,0 +1,13 @@
+@startuml ESP32-BME280
+
+participant ESP32 as ESP32
+participant "Sensor BME280" as BME280
+
+ESP32 -> BME280: Iniciar Comunicação
+ESP32 -> BME280: Enviar Endereço do Sensor
+BME280 -> ESP32: ACK
+ESP32 -> BME280: Solicitar Dados (Leitura)
+BME280 -> ESP32: Enviar Dados
+ESP32 -> BME280: Parar Comunicação
+
+@enduml
