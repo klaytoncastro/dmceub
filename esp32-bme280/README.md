@@ -1,10 +1,25 @@
 # Projeto de Estação Meteorológica com ESP32 e Sensor BME280
 
-Este projeto descreve a criação de uma estação meteorológica simples utilizando o ESP32 como controlador principal e o sensor BME280 para medição de temperatura, umidade, pressão e altitude, cujo propósito é monitorar as condições climáticas em tempo real. 
+Este projeto descreve a criação de uma estação meteorológica simples utilizando o ESP32 como controlador principal e o sensor BME280 para medição de temperatura, umidade, pressão e altitude, cujo propósito é monitorar as condições climáticas em tempo real. No contexto da estação meteorológica, o ESP32 atua como o dispositivo mestre, enquanto o sensor BME280 é um dispositivo escravo. O ESP32 inicia a comunicação I2C, envia o endereço do sensor BME280 e, em seguida, pode solicitar leituras de temperatura, umidade, pressão e altitude ou configurar o sensor para operar em diferentes modos.
 
 ## 1. Design Esquemático
 
 O esquemático para este projeto envolverá a integração do ESP32 com o sensor BME280 via comunicação I2C. Podemos adicionar componentes de suporte como resistores, conectores e um display ou LEDs indicativos.
+
+### Protocolo I2C
+
+O I2C (Inter-Integrated Circuit), é um protocolo serial de comunicação síncrona que permite a troca de dados entre dispositivos eletrônicos. Ele é usado para conectar vários dispositivos em um único barramento, permitindo que o microcontrolador (no caso, o ESP32) se comunique com múltiplos dispositivos, como o sensor BME280, de forma eficiente. 
+
+Para isso, o I2C utiliza dois fios para comunicação: SDA (Serial Data Line) e SCL (Serial Clock Line). O dispositivo mestre (neste caso, o ESP32) controla o barramento I2C e inicia todas as transações de comunicação.
+
+Cada dispositivo conectado ao barramento I2C possui um endereço único que o identifica no sistema. Durante uma transação I2C, o dispositivo mestre envia um sinal de start seguido do endereço do dispositivo de destino e um bit que indica se a operação será de leitura ou escrita.
+
+Depois de receber seu endereço, o dispositivo de destino responde com um sinal de ACK (acknowledge) para confirmar que foi selecionado. O dispositivo mestre então envia ou recebe dados, gerando pulsos de clock no fio SCL para sincronizar a transferência.
+
+Ao finalizar a transação, o dispositivo mestre emite um sinal de stop para liberar o barramento.
+
+<img src="/img/esp32-bme280-comm.png" alt="Diagrama de Comunicação">
+
 
 ### Componentes Principais
 
