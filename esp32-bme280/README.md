@@ -20,7 +20,6 @@ Ao finalizar a transação, o dispositivo mestre emite um sinal de stop para lib
 
 <img src="/img/esp32-bme280-comm.png" alt="Diagrama de Comunicação">
 
-
 ### Componentes Principais
 
 *ESP32*: Microcontrolador com capacidade Wi-Fi e Bluetooh integrada, sendo ideal para aplicações modernas de IoT.
@@ -76,13 +75,13 @@ Revise as conexões para garantir que não haja erros. Use a ferramenta de verif
 
 ### Verificação do Layout:
 
-Revise o layout do PCB com as ferramentas de DRC (Design Rule Check) para garantir que todas as normas de design estão sendo seguidas.
+Revise o layout da PCB com as ferramentas de DRC (Design Rule Check) para garantir que todas as normas de design estão sendo seguidas.
 
 ## Preparação para Fabricação
 
 ### Geração de Arquivos Gerber:
 
-Prepare os arquivos Gerber, que são necessários para a fabricação do PCB. Certifique-se de incluir todas as camadas necessárias.
+Prepare os arquivos Gerber, que são necessários para a fabricação da PCB. Certifique-se de incluir todas as camadas necessárias.
 
 ### Visualização 2D e 3D:
 
