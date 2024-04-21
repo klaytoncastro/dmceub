@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-O objetivo deste projeto é permitir que os alunos da disciplina de Desenho Mediado por Computador apliquem os conhecimentos adquiridos na criação de uma aplicação prática relacionada à Engenharia da Computação. 
+O objetivo deste projeto é permitir que os alunos da disciplina de Desenho Mediado por Computador desenvolvam um projeto com aplicação prática à Engenharia da Computação. 
 
 ## Estrutura do Projeto
 
