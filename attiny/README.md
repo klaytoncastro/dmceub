@@ -1,42 +1,39 @@
-
 # PCB para Minigame usando ATtiny85
 
 ## Introdução
 
-Neste projeto, desenvolveremos o esquemático e a PCB para um Minigame / Keychain com o microcontrolador ATtiny85, acoplado a um display de matriz de LEDs, bastante utilizado em projetos para rodar jogos portáteis simples,  tais como Space Invaders, como um mini-chaveiro. 
+Este projeto visa desenvolver o esquemático e a PCB para um Minigame/Keychain usando o microcontrolador ATtiny85, acoplado a um display de matriz de LEDs. Este dispositivo é ideal para jogos portáteis simples, como Space Invaders, configurado em um formato de mini-chaveiro.
 
 ## Projeto Esquemático
 
-O design envolve a integração de vários componentes eletrônicos para controlar uma matriz de LEDs e permitir a interação do usuário. A seguir, os componentes principais e suas funções no projeto:
+O design do projeto integra vários componentes eletrônicos para controlar o display de LEDs e facilitar a interação do usuário. Os componentes principais e suas funções são descritos a seguir:
 
 ### Componentes Principais
 
-- ATtiny85: Microcontrolador que gerencia a interação com o jogo.
-- Socket DIP de 8 pinos: Facilita a inserção e remoção do ATtiny85.
-- Resistores: Usados para pull-up dos botões de ação.
-- Interruptores: Liga e desliga o circuito.
-- Conector para bateria CR2032: Alimentação do circuito.
-- Conector ISP de 6 pinos: Programação do ATtiny85.
-- Display de Matriz de LEDs 8x8: Exibição do jogo.
+- **ATtiny85**: Microcontrolador que gerencia as interações do jogo.
+- **Socket DIP de 8 pinos**: Permite fácil inserção e remoção do ATtiny85.
+- **Resistores**: Utilizados para pull-up dos botões de ação.
+- **Interruptores**: Controlam a ligação e desligamento do circuito.
+- **Conector para bateria CR2032**: Fornece a alimentação do circuito.
+- **Conector ISP de 6 pinos**: Utilizado para a programação do ATtiny85.
+- **Display de Matriz de LEDs 8x8**: Responsável pela exibição das interações do jogo.
 
 ### Diagrama Esquemático
 
-O diagrama esquemático deve mostrar as conexões entre todos os componentes, destacando como o ATtiny85 deverá se conectar ao display de LEDs e aos demais componentes.
+O diagrama esquemático apresenta as conexões entre todos os componentes, destacando a forma como o ATtiny85 se conecta ao display de LEDs e aos outros componentes envolvidos.
 
 ## Tarefa
 
-Utilize o software EasyEDA para criar o esquemático do circuito.
-Certifique-se de incluir todos os componentes necessários e conexões apropriadas. Adicione comentários ao esquemático para explicar a função de cada parte do circuito.
+Utilize o software EasyEDA para criar o esquemático do circuito. Inclua todos os componentes necessários e as conexões apropriadas. Se necessário, adicione comentários no esquemático para anotar a função de cada parte do circuito, facilitando a compreensão e a montagem.
 
-### Projeto da PCB:
+### Projeto da PCB
 
-Use o EasyEDA para converter o esquemático em um layout de PCB.
-Otimize a disposição dos componentes para minimizar o espaço e garantir a eficiência do circuito. Inclua trilhas adequadas para as conexões e certifique-se de que todas as vias e pads estejam corretamente posicionados. Lembre-se de incluir a malha de cobre para o plano de terra. 
+- **Desenvolvimento no EasyEDA**: Converta o esquemático em um layout de PCB usando o EasyEDA.
+- **Otimização do Layout**: Organize os componentes de forma a minimizar o espaço ocupado e maximizar a eficiência do circuito.
+- **Trilhas e Conexões**: Inclua trilhas adequadas para as conexões e assegure-se de que todas as vias e pads estejam corretamente posicionados.
+- **Plano de Terra**: Incorpore uma malha de cobre para o plano de terra, melhorando a estabilidade e reduzindo interferências.
 
+## Imagens Ilustrativas
 
-<img src="/img/attinny_minigame.png" alt="Esquemático da PCB">
-
-<img src="/img/attinny_minigame_pcb2.png" alt="Layout da PCB">
-
-<!-- Abaixo está um exemplo de imagem de referência que pode ser adicionada ao projeto. -->
-<!-- <img src="path_to_image/pcb_layout_example.png" alt="Exemplo de Layout de PCB"> -->
+![Esquemático da PCB](/img/attinny_minigame.png)
+![Layout da PCB](/img/attinny_minigame_pcb2.png)
