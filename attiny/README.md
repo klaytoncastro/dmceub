@@ -36,7 +36,7 @@ Otimize a disposição dos componentes para minimizar o espaço e garantir a efi
 
 <img src="/img/attinny_minigame.png" alt="Esquemático da PCB">
 
-<img src="/img/attinny_minigame_pcb.png" alt="Layout da PCB">
+<img src="/img/attinny_minigame_pcb2.png" alt="Layout da PCB">
 
 <!-- Abaixo está um exemplo de imagem de referência que pode ser adicionada ao projeto. -->
 <!-- <img src="path_to_image/pcb_layout_example.png" alt="Exemplo de Layout de PCB"> -->
