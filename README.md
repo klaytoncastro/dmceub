@@ -15,16 +15,15 @@ Uma vez que o projeto de engenharia de um dispositivo eletrônico tenha sido tes
 
 ## Modelagem em Software
 
-Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyEDA, Eagle, Altium, KiCad, dentre outros, tornaram-se essenciais para viabilizar a materialização de conceitos, transformando protótipos em produtos funcionais. No contexto do design de PCBs, estes softwares facilitam a montagem de esquemas eletrônicos e a modelagem da PCB, oferecendo ferramentas para:
+Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyEDA, Eagle, Altium, KiCad, dentre outros, tornaram-se essenciais para viabilizar a materialização de conceitos, transformando protótipos em produtos funcionais. No contexto do design de PCIs, estes softwares facilitam a montagem de esquemas eletrônicos e a modelagem da PCI, oferecendo ferramentas para:
 
 - Desenho de trilhas de cobre
 - Posicionamento de componentes eletrônicos
 - Verificação de erros de design (DRC e ERC)
 
-
 ## Projetos Práticos
 
-Durante o curso, trabalharemos os seguintes projetos práticos: 
+Durante este módulo do curso, trabalharemos os seguintes projetos práticos: 
 
 1. [Flip-Flop](/flipflop/)
 
@@ -42,7 +41,7 @@ Durante o curso, trabalharemos os seguintes projetos práticos:
 
 ## Conclusão
 
-O design de PCBs é uma área de crescente demanda no mercado de trabalho, com aplicações cada vez mais diversificadas e inovadoras, especialmente no campo de IoT e sistemas embarcados. Este curso apresenta os fundamentos para ingressar na área e os conceitos para desenvolvimento de projetos eletrônicos desde a concepção até a implementação e prática em engenharia da computação. 
+O design de PCIs é uma área de crescente demanda no mercado de trabalho, com aplicações cada vez mais diversificadas e inovadoras, especialmente no campo de IoT e sistemas embarcados. Este curso apresenta os fundamentos para ingressar na área e os conceitos para desenvolvimento de projetos eletrônicos desde a concepção até a implementação e prática em engenharia da computação. 
 
 <!--
 
