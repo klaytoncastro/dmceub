@@ -47,19 +47,6 @@ O conversor Step Boost pode aumentar ou diminuir a tensão de entrada conforme n
 - R3: Resistor para feedback de tensão
 - IC3: CI controlador de Boost-Buck
 
-## O que é um Datasheet?
-
-Um datasheet (folha de dados) é um documento técnico que contém informações detalhadas sobre um componente eletrônico, como um microcontrolador, resistor, capacitor, transistor, regulador de tensão, entre outros. Ele é fornecido pelo fabricante e serve como um guia essencial para engenheiros e projetistas de circuitos eletrônicos. Um ótimo serviço de consulta a datasheets de diversos fabricantes é o [www.alldatasheets.com](https://www.alldatasheets.com). 
-
-### Por que os Datasheets são Importantes?
-
-- **Especificações Técnicas** – Contém informações como tensão de operação, corrente máxima, potência dissipada e faixas de temperatura de funcionamento, fundamentais para evitar danos ao componente.
-- **Pinos e Funcionalidade** – Apresenta o pinout (mapa de pinos), detalhando quais são as funções de cada terminal do componente, evitando conexões erradas no circuito.
-- **Diagramas e Características Elétricas** – Inclui gráficos de desempenho, curvas características, circuitos típicos de aplicação e requisitos elétricos.
-- **Tolerâncias e Limites Operacionais** – Define os limites dentro dos quais o componente pode operar sem riscos de falha.
-- **Sugestões de Uso** – Muitos datasheets fornecem circuitos de referência e sugestões para integração eficiente dos componentes em projetos.
-- **Dimensões e Layout de PCB** – Contém o desenho mecânico do componente, essencial para projetar a footprint correta no CAD (como no EasyEDA).
-
 ## Regulador LM2596
 
 O **LM2596** é um regulador de tensão monolítico integrado ideal para o design de conversores step-down (Buck). Ele pode fornecer uma carga de **3,0 A** com excelente regulação de linha e carga. Opera a **150 kHz**, permitindo componentes de filtro menores em comparação com reguladores de menor frequência.
