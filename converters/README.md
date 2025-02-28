@@ -76,7 +76,7 @@ Portanto, consultar datasheets evita erros de projeto e garante que os component
 
 2) Utilize o software EasyEDA para projetar placas de circuito impresso (PCB) que acomodem os componentes para cada tipo de conversor. Considere a disposição eficiente dos componentes para minimizar interferências e perdas, bem como a implantação de LEDs para sinalizar a operação dos circuitos. 
 
-3) Uma aplicação genérica como exemplo: 
+3) Como exemplo, segue uma aplicação genérica típica para o conversor de tensão de saída ajustável:  
 
 <img src="/img/lm2596.png" alt="LM2596 - Conversor de tensão de saída ajustável">
 
