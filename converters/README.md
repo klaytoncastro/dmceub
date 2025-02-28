@@ -47,9 +47,38 @@ O conversor Step Boost pode aumentar ou diminuir a tensão de entrada conforme n
 - R3: Resistor para feedback de tensão
 - IC3: CI controlador de Boost-Buck
 
+## O que é um Datasheet?
+
+Um datasheet (folha de dados) é um documento técnico que contém informações detalhadas sobre um componente eletrônico, como um microcontrolador, resistor, capacitor, transistor, regulador de tensão, entre outros. Ele é fornecido pelo fabricante e serve como um guia essencial para engenheiros e projetistas de circuitos eletrônicos.
+
+### Por que os Datasheets são Importantes?
+
+- Especificações Técnicas – Contém informações como tensão de operação, corrente máxima, potência dissipada e faixas de temperatura de funcionamento, fundamentais para evitar danos ao componente.
+- Pinos e Funcionalidade – Apresenta o pinout (mapa de pinos), detalhando quais são as funções de cada terminal do componente, evitando conexões erradas no circuito.
+- Diagramas e Características Elétricas – Inclui gráficos de desempenho, curvas características, circuitos típicos de aplicação e requisitos elétricos.
+- Tolerâncias e Limites Operacionais – Define os limites dentro dos quais o componente pode operar sem riscos de falha, como a máxima corrente suportada por um LED ou a tensão de ruptura de um transistor.
+- Sugestões de Uso – Muitos datasheets fornecem circuitos de referência e sugestões para integração eficiente dos componentes em projetos.
+- Dimensões e Layout de PCB – Contém o desenho mecânico do componente, essencial para projetar a footprint correta no CAD (como no EasyEDA).
+
+### Exemplo de Aplicação
+Ao projetar uma PCB no EasyEDA, você precisa escolher um regulador de tensão como o LM7805. O datasheet deste componente informará:
+
+- O pino de entrada (Vin), de saída (Vout) e o terra (GND).
+- A corrente máxima que ele pode fornecer sem superaquecer.
+- A necessidade de dissipadores de calor dependendo da carga.
+- O encapsulamento e footprint correto para a sua PCB.
+
+Portanto, consultar datasheets evita erros de projeto e garante que os componentes sejam utilizados corretamente, assegurando eficiência e confiabilidade na placa de circuito impresso.
+
 ## Tarefa:
 
-Pesquise sobre os CIs LM2596 e LM3862, verifique seus datasheets e como podem ser utilizados para desenvolver o projeto. Utilize o software EasyEDA para projetar placas de circuito impresso (PCB) que acomodem os componentes para cada tipo de conversor. Considere a disposição eficiente dos componentes para minimizar interferências e perdas, bem como a implantação de LEDs para sinalizar a operação dos circuitos.  
+1) Pesquise sobre os CIs LM2596 e LM3862, verifique seus datasheets no site [www.alldatasheet.com](https://www.alldatasheet.com) e veja como podem ser utilizados para desenvolver um projeto de conversão de tensão. 
+
+2) Utilize o software EasyEDA para projetar placas de circuito impresso (PCB) que acomodem os componentes para cada tipo de conversor. Considere a disposição eficiente dos componentes para minimizar interferências e perdas, bem como a implantação de LEDs para sinalizar a operação dos circuitos. 
+
+3) Uma aplicação genérica como exemplo: 
+
+<img src="/img/lm2596.png" alt="LM2596 - Conversor de tensão de saída ajustável">
 
 <!-- XL6009 -->
 
