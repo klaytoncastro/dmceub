@@ -49,39 +49,36 @@ O conversor Step Boost pode aumentar ou diminuir a tensão de entrada conforme n
 
 ## O que é um Datasheet?
 
-Um datasheet (folha de dados) é um documento técnico que contém informações detalhadas sobre um componente eletrônico, como um microcontrolador, resistor, capacitor, transistor, regulador de tensão, entre outros. Ele é fornecido pelo fabricante e serve como um guia essencial para engenheiros e projetistas de circuitos eletrônicos.
+Um datasheet (folha de dados) é um documento técnico que contém informações detalhadas sobre um componente eletrônico, como um microcontrolador, resistor, capacitor, transistor, regulador de tensão, entre outros. Ele é fornecido pelo fabricante e serve como um guia essencial para engenheiros e projetistas de circuitos eletrônicos. Um ótimo serviço de consulta a datasheets de diversos fabricantes é o [www.alldatasheets.com](https://www.alldatasheets.com). 
 
 ### Por que os Datasheets são Importantes?
 
-- Especificações Técnicas – Contém informações como tensão de operação, corrente máxima, potência dissipada e faixas de temperatura de funcionamento, fundamentais para evitar danos ao componente.
-- Pinos e Funcionalidade – Apresenta o pinout (mapa de pinos), detalhando quais são as funções de cada terminal do componente, evitando conexões erradas no circuito.
-- Diagramas e Características Elétricas – Inclui gráficos de desempenho, curvas características, circuitos típicos de aplicação e requisitos elétricos.
-- Tolerâncias e Limites Operacionais – Define os limites dentro dos quais o componente pode operar sem riscos de falha, como a máxima corrente suportada por um LED ou a tensão de ruptura de um transistor.
-- Sugestões de Uso – Muitos datasheets fornecem circuitos de referência e sugestões para integração eficiente dos componentes em projetos.
-- Dimensões e Layout de PCB – Contém o desenho mecânico do componente, essencial para projetar a footprint correta no CAD (como no EasyEDA).
+- **Especificações Técnicas** – Contém informações como tensão de operação, corrente máxima, potência dissipada e faixas de temperatura de funcionamento, fundamentais para evitar danos ao componente.
+- **Pinos e Funcionalidade** – Apresenta o pinout (mapa de pinos), detalhando quais são as funções de cada terminal do componente, evitando conexões erradas no circuito.
+- **Diagramas e Características Elétricas** – Inclui gráficos de desempenho, curvas características, circuitos típicos de aplicação e requisitos elétricos.
+- **Tolerâncias e Limites Operacionais** – Define os limites dentro dos quais o componente pode operar sem riscos de falha.
+- **Sugestões de Uso** – Muitos datasheets fornecem circuitos de referência e sugestões para integração eficiente dos componentes em projetos.
+- **Dimensões e Layout de PCB** – Contém o desenho mecânico do componente, essencial para projetar a footprint correta no CAD (como no EasyEDA).
 
-### Exemplo de Aplicação
-Ao projetar uma PCB no EasyEDA, você precisa escolher um regulador de tensão como o LM7805. O datasheet deste componente informará:
+## Regulador LM2596
 
-- O pino de entrada (Vin), de saída (Vout) e o terra (GND).
-- A corrente máxima que ele pode fornecer sem superaquecer.
-- A necessidade de dissipadores de calor dependendo da carga.
-- O encapsulamento e footprint correto para a sua PCB.
+O **LM2596** é um regulador de tensão monolítico integrado ideal para o design de conversores step-down (Buck). Ele pode fornecer uma carga de **3,0 A** com excelente regulação de linha e carga. Opera a **150 kHz**, permitindo componentes de filtro menores em comparação com reguladores de menor frequência.
 
-Portanto, consultar datasheets evita erros de projeto e garante que os componentes sejam utilizados corretamente, assegurando eficiência e confiabilidade na placa de circuito impresso.
+### Principais Características:
+- Faixa de Saída Ajustável: **1.23 V – 37 V**
+- Corrente de Saída Garantida: **3.0 A**
+- Faixa de Entrada: **até 40 V**
+- Oscilador Interno de **150 kHz**
+- Proteções Contra Superaquecimento e Limite de Corrente
+- Operação em Modo Standby de **80 µA**
 
 ## Tarefa:
+1) Pesquise sobre o CIs **LM2596** e veja como podem ser utilizados para desenvolvimento de conversores de tensão.
+2) Utilize o **EasyEDA** para projetar as PCBs.
+3) Como exemplo, segue abaixo uma aplicação típica para conversão de saída com LM2596:  
 
-1) Pesquise sobre os CIs LM2596 e LM3862, verifique seus datasheets no site [www.alldatasheet.com](https://www.alldatasheet.com) e veja como podem ser utilizados para desenvolver um projeto de conversão de tensão. 
+<!--
+ e **LM3862** pesquisa
+-->
 
-2) Utilize o software EasyEDA para projetar placas de circuito impresso (PCB) que acomodem os componentes para cada tipo de conversor. Considere a disposição eficiente dos componentes para minimizar interferências e perdas, bem como a implantação de LEDs para sinalizar a operação dos circuitos. 
-
-3) Como exemplo, segue uma aplicação genérica típica para o conversor de tensão de saída ajustável:  
-
-<img src="/img/lm2596.png" alt="LM2596 - Conversor de tensão de saída ajustável">
-
-<!-- XL6009 -->
-
-<!-- <img src="/img/delay-timer-ic555.png" alt="Circuito Temporizador com Atraso"> -->
-
-<!-- Este é um comentário que não será exibido na saída final. -->
+![LM2596 - Conversor de tensão de saída ajustável](/img/lm2596.png)
