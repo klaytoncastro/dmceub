@@ -38,19 +38,57 @@ Um datasheet (folha de dados) é um documento técnico que contém informações
 
 Durante este módulo do curso, trabalharemos os seguintes projetos práticos: 
 
-1. [Flip-Flop](/flipflop/)
+| #  | Tarefa                                                             | Tipo de Aplicação      | Prazo      |
+|----|--------------------------------------------------------------------|------------------------|------------|
+| 01 | [Flip-Flop](/flipflop/)                                            | Circuito Sequencial    | --         |
+| 02 | [Oscilador / Temporizador (IC555)](/ic555/)                        | Circuito Temporizador  | --         |
+| 03 | [Conversores DC (LM2596 / LM3862)](/converters/)                   | Eletrônica de Potência | --         |
+| 04 | [Mini-Amplificador de Áudio (LM386)](/lm386/)                      | Amplificador Analógico | --         |
+| 05 | [Amplificador de Áudio Hi-Fi (TDA2003)](/tda2003/)                 | Amplificador Analógico | --         |
 
-2. [Oscilador / Temporizador (IC555)](/ic555/)
+## Como Exportar e Enviar seu Projeto do EasyEDA
 
-3. [Conversores DC (LM2596 / LM3862)](/converters/)
+Você deve entregar o **arquivo `.zip` do seu projeto criado no EasyEDA**, conforme instruções abaixo.
 
-4. [Mini-Amplificador de Áudio (LM386)](/lm386/)
+- Antes de enviar, **renomeie o arquivo `.zip` gerado** com seu nome completo e o nome do projeto.
+- **Exemplo**: `FlipFlop_JoaoSilva.zip`
+- **Não serão aceitos prints ou capturas de tela. Apenas o `.zip` original gerado pelo EasyEDA.**
 
-5. [Amplificador de Áudio Hi-Fi (TDA2003)](/tda2003/)
+<!--
+- O envio deve ser feito via [**canal oficial da disciplina** — Moodle, e-mail ou GitHub Classroom] *(especificar o meio)*.
+-->
+
+###  Passo a Passo: Gerar o `.zip` para envio
+
+1. **No EasyEDA, localize seu projeto** na barra lateral esquerda.
+   - Exemplo: `FlipFlop`, `IC555`, etc.
+
+<img src="/img/EEDA_01.png" alt="Passo 1">
+
+
+2. **Clique com o botão direito no nome do projeto** e vá até:
+
+>Gerenciar Projeto > Download
+
+<img src="/img/EEDA_02.png" alt="Passo 2">
+
+Isso iniciará o empacotamento do seu projeto.
+
+3. Após clicar em **"Download"**, o EasyEDA vai gerar um `.zip` automaticamente e o levará à página de notificações, onde você poderá baixar o arquivo do projeto. A ferramenta também enviará uma **mensagem para sua conta** com o link para baixar.
+
+<img src="/img/EEDA_03.png" alt="Passo 3">
+
+4. Envie o arquivo baixado via repositório indicado na disciplina do [Moodle](https://salaonline.ceub.br/).
+
+<img src="/img/EEDA_04.png" alt="Passo 4">
+
+<!--
 
 6. [Mini-Game (ATTiny - Arduino)](/attiny/)
 
 7. [Estação Meteorológica (ESP32 + BME280)](/bme280/)
+
+-->
 
 ## Conclusão
 
