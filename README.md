@@ -19,7 +19,64 @@ Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyE
 
 - Desenho de trilhas de cobre
 - Posicionamento de componentes eletrônicos
-- Verificação de erros de design (DRC e ERC)
+- Verificação de erros (DRC - Design Rule Check e ERC - Electrical Rule Check)
+
+<!--
+
+Antes de exportar os Gerber files (arquivos para fabricação), sempre rode o ERC e DRC. Isso evita retrabalho e garante que sua placa funcione como esperado e possa ser fabricada com segurança.
+
+### Electrical Rule Check (ERC) no EasyEDA
+
+No editor de esquemáticos (schematic), você acessa:
+
+> Design > Electrical Rule Check (ERC)
+
+O que ele faz:
+
+Verifica se há pinos flutuantes, conexões erradas ou curto-circuitos lógicos.
+
+Destaca possíveis problemas com bolinhas vermelhas nos pontos de erro.
+
+Lista os erros encontrados em uma janela de relatório.
+
+Exemplos de erros que o ERC detecta:
+
+Saída conectada a outra saída
+
+Entrada desconectada
+
+Pinos de alimentação não conectados ao VCC ou GND
+
+Componentes mal referenciados
+
+### Design Rule Check (DRC) no EasyEDA
+
+No editor de layout da PCB, você acessa:
+
+> Tools > Design Rule Check (DRC)
+
+O que ele faz:
+
+Analisa se o projeto da placa segue as regras mínimas definidas (largura de trilha, espaçamento, distância entre pads, etc).
+
+Mostra os erros graficamente em destaque na placa.
+
+Também lista os erros em uma janela com a opção de navegar até cada um deles.
+
+Você pode configurar as regras em:
+
+Design > Design Rule Settings
+
+Exemplos de erros que o DRC detecta:
+
+Trilhas muito próximas
+
+Pads encostando em trilhas vizinhas
+
+Distância entre via e borda da placa insuficiente
+
+
+-->
 
 ## O que é um Datasheet?
 
@@ -40,12 +97,13 @@ Durante este módulo do curso, trabalharemos os seguintes projetos práticos:
 
 | #  | Tarefa                                                             | Tipo de Aplicação      | Prazo      |
 |----|--------------------------------------------------------------------|------------------------|------------|
-| 01 | [Flip-Flop](/flipflop/)                                            | Circuito Sequencial    | --         |
+| 01 | [Flip-Flop (BC547)](/flipflop/)                                    | Circuito Sequencial    | --         |
 | 02 | [Oscilador / Temporizador (IC555)](/ic555/)                        | Circuito Temporizador  | --         |
-| 03 | [Conversores DC (LM2596 / LM3862)](/converters/)                   | Eletrônica de Potência | --         |
+| 03 | [Conversores DC (LM3862)](/converters/)                            | Eletrônica de Potência | --         |
 | 04 | [Mini-Amplificador de Áudio (LM386)](/lm386/)                      | Amplificador Analógico | --         |
-| 05 | [Amplificador de Áudio Hi-Fi (TDA2003)](/tda2003/)                 | Amplificador Analógico | --         |
-
+| 05 | [Amplificador de Áudio Hi-Fi (TDA2003)](/tda2003/)                 | Amplificador Hi-Fi     | --         |
+| 06 | [Microcontrolador ESP32 (+BME280)](/bme280/)                       | Estação Meteorológica  | --         |
+ 
 ## Como Exportar e Enviar seu Projeto do EasyEDA
 
 Você deve entregar o **arquivo `.zip` do seu projeto criado no EasyEDA**, conforme instruções abaixo.
