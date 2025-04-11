@@ -103,6 +103,9 @@ Durante este módulo do curso, trabalharemos os seguintes projetos práticos:
 | 04 | [Mini-Amplificador de Áudio (LM386)](/lm386/)                      | Amplificador Analógico | --         |
 | 05 | [Amplificador de Áudio Hi-Fi (TDA2003)](/tda2003/)                 | Amplificador Hi-Fi     | --         |
 | 06 | [Microcontrolador ESP32 (+BME280)](/bme280/)                       | Estação Meteorológica  | --         |
+| 07 | [Mini-Game (ATTiny)](/attiny/)                                     | Mini-Game              | --         |
+
+
  
 ## Como Exportar e Enviar seu Projeto do EasyEDA
 
