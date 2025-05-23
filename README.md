@@ -4,22 +4,30 @@
 
 Bem-vindo ao repositório da disciplina Design Mediado por Computador (DMC). A disciplina aborda os fundamentos do desenho técnico, modelagem 2D e 3D aplicadas à Engenharia da Computação. 
 
+## Modelagem em Software
+
+Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyEDA, Eagle, Altium, KiCad, TinkerCAD, dentre outros, são hoje fundamentais para a materialização de conceitos, transformando protótipos em produtos funcionais.
+
 ##  O que são placas de circuito impresso (PCIs)?
 
-Uma vez que o projeto de engenharia de um dispositivo eletrônico tenha sido testado com sucesso por meio de simulação e prototipagem em uma protoboard, é hora de fazer a transição para uma PCI. Uma PCI consiste de folhas de cobre laminadas em substratos não-condutores, de modo a criar conexões entre componentes eletrônicos e fornecer suporte mecânico para montagem do dispositivo projetado em um gabinete. O fluxo de trabalho de um projeto de PCI é o seguinte: 
+No contexto do design de PCIs, estes softwares facilitam a montagem de esquemas eletrônicos e a modelagem da PCI, oferecendo ferramentas para:
+
+- Desenho de trilhas de cobre
+- Posicionamento de componentes eletrônicos
+- Verificação de erros (DRC - Design Rule Check e ERC - Electrical Rule Check)
+
+
+Uma vez que o projeto de engenharia de um dispositivo eletrônico tenha sido testado com sucesso por meio de simulação e prototipagem em uma protoboard, é hora de fazer a transição para uma PCI. 
+
+Uma PCI consiste de folhas de cobre laminadas em substratos não-condutores, de modo a criar conexões entre componentes eletrônicos e fornecer suporte mecânico para montagem do dispositivo projetado em um gabinete. 
+
+O fluxo de trabalho de um projeto de PCI é o seguinte: 
 
 - Desenho do diagrama esquemático
 - Elaboração do layout da placa
 - Exportação dos arquivos "Gerber"
 - Fabricação por empresas especializadas
 
-## Modelagem em Software
-
-Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyEDA, Eagle, Altium, KiCad, dentre outros, tornaram-se essenciais para viabilizar a materialização de conceitos, transformando protótipos em produtos funcionais. No contexto do design de PCIs, estes softwares facilitam a montagem de esquemas eletrônicos e a modelagem da PCI, oferecendo ferramentas para:
-
-- Desenho de trilhas de cobre
-- Posicionamento de componentes eletrônicos
-- Verificação de erros (DRC - Design Rule Check e ERC - Electrical Rule Check)
 
 <!--
 
@@ -93,21 +101,19 @@ Um datasheet (folha de dados) é um documento técnico que contém informações
 
 ## Projetos Práticos
 
-Durante este módulo do curso, trabalharemos os seguintes projetos práticos: 
+No Módulo de Design de PCIs, trabalharemos os seguintes projetos práticos: 
 
 | #  | Tarefa                                                             | Tipo de Aplicação      | Prazo      |
 |----|--------------------------------------------------------------------|------------------------|------------|
-| 01 | [Flip-Flop (BC547)](/flipflop/)                                    | Circuito Sequencial    | --         |
-| 02 | [Oscilador / Temporizador (IC555)](/ic555/)                        | Circuito Temporizador  | --         |
-| 03 | [Conversores DC (LM3862)](/converters/)                            | Eletrônica de Potência | --         |
-| 04 | [Mini-Amplificador de Áudio (LM386)](/lm386/)                      | Amplificador Analógico | --         |
-| 05 | [Amplificador de Áudio Hi-Fi (TDA2003)](/tda2003/)                 | Amplificador Hi-Fi     | --         |
-| 06 | [Microcontrolador ESP32 (+BME280)](/bme280/)                       | Estação Meteorológica  | --         |
-| 07 | [Mini-Game (ATTiny)](/attiny/)                                     | Mini-Game              | --         |
+| 01 | [Flip-Flop (BC547)](/flipflop/)                                    | Circuito Sequencial    | 30/05/2025 |
+| 02 | [Oscilador / Temporizador (IC555)](/ic555/)                        | Circuito Temporizador  | 30/05/2025 |
+| 03 | [Conversores DC (LM3862)](/converters/)                            | Eletrônica de Potência | 30/05/2025 |
+| 04 | [Mini-Amplificador de Áudio (LM386)](/lm386/)                      | Amplificador Analógico | 30/05/2025 |
+| 05 | [Amplificador de Áudio Hi-Fi (TDA2003)](/tda2003/)                 | Amplificador Hi-Fi     | 30/05/2025 |
+| 06 | [Microcontrolador ESP32 (+BME280)](/bme280/)                       | Estação Meteorológica  | 30/05/2025 |
+| 07 | [Mini-Game (ATTiny)](/attiny/)                                     | Mini-Game              | 30/05/2025 |
 
-
- 
-## Como Exportar e Enviar seu Projeto do EasyEDA
+### Como Exportar e Enviar seu Projeto do EasyEDA? 
 
 Você deve entregar o **arquivo `.zip` do seu projeto criado no EasyEDA**, conforme instruções abaixo.
 
