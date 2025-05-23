@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Bem-vindo ao repositório da disciplina Design Mediado por Computador (DMC). A disciplina aborda os fundamentos do desenho técnico, modelagem 2D e 3D aplicadas à Engenharia da Computação. 
+Bem-vindo ao repositório da disciplina Design Mediado por Computador (DMC). A disciplina aborda os fundamentos do desenho técnico, modelagem 2D e 3D aplicadas à Engenharia da Computação.
 
 ## Modelagem em Software
 
@@ -10,7 +10,7 @@ Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyE
 
 ##  O que são placas de circuito impresso (PCIs)?
 
-Uma vez que o projeto de engenharia de um dispositivo eletrônico tenha sido testado com sucesso por meio de simulação e prototipagem em uma protoboard, é hora de fazer a transição para uma PCI. 
+Uma vez que o projeto de engenharia de um dispositivo eletrônico tenha sido testado com sucesso por meio de simulação e prototipagem em uma protoboard, é hora de fazer a transição para uma PCI.
 
 Uma PCI consiste de folhas de cobre laminadas em substratos não-condutores, de modo a criar conexões entre componentes eletrônicos e fornecer suporte mecânico para montagem do dispositivo projetado em um gabinete. 
 
@@ -86,7 +86,7 @@ Distância entre via e borda da placa insuficiente
 
 ## O que é um Datasheet?
 
-Um datasheet (folha de dados) é um documento técnico que contém informações detalhadas sobre um componente eletrônico, como um microcontrolador, resistor, capacitor, transistor, regulador de tensão, entre outros. Ele é fornecido pelo fabricante e serve como um guia essencial para engenheiros e projetistas de circuitos eletrônicos. Um ótimo serviço de consulta a datasheets de diversos fabricantes é o [www.alldatasheets.com](https://www.alldatasheets.com). 
+Aa utilizar componentes eletrônicos no projeto da PCI, precisamos consultar seus respectivos datasheets (folha de dados). Datasheets são documentos técnicos que contém informações detalhadas sobre um componente eletrônico, como um microcontrolador, circuito integrado, resistor, capacitor, transistor, regulador de tensão, entre outros. Eles são fornecidos pelo fabricante e servem como um guia para engenheiros e projetistas de circuitos eletrônicos que desejam aplicá-los em seus projetos. Um ótimo serviço de consulta a datasheets de diversos fabricantes é o [www.alldatasheets.com](https://www.alldatasheets.com). 
 
 ### Por que os Datasheets são Importantes?
 
@@ -157,7 +157,7 @@ Isso iniciará o empacotamento do seu projeto.
 
 ## Conclusão
 
-O design de PCIs é uma área de crescente demanda no mercado de trabalho, com aplicações cada vez mais diversificadas e inovadoras, especialmente no campo de IoT e sistemas embarcados. Este curso apresenta os fundamentos para ingressar na área e os conceitos para desenvolvimento de projetos eletrônicos desde a concepção até a implementação e prática em engenharia da computação. 
+O design de PCIs é uma área de crescente demanda no mercado de trabalho, com aplicações cada vez mais diversificadas e inovadoras, especialmente no campo de IoT e sistemas embarcados. Este curso apresenta os fundamentos para o desenvolvimento de projetos eletrônicos desde a concepção até a implementação e prática essenciais para ingressar na área.
 
 <!--
 
