@@ -11,3 +11,9 @@ Durante o Módulo de Modelagem 3D, trabalharemos os seguintes projetos:
 Utilizando o TinkerCAD, modele o sólido a seguir: 
 
 <img src="/img/CAD_3D_001.png" alt="Modelo 3D">
+
+## Sólido 002
+
+Utilizando o TinkerCAD, modele o sólido a seguir: 
+
+<img src="/img/CAD_3D_002.png" alt="Modelo 3D">
