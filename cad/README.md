@@ -4,7 +4,7 @@ IA, APOIO VOCAL, SGI, AMBIENTACAO
 
 # Modelagem 3D
 
-Durante o Módulo de Modelagem 3D, trabalharemos com os seguintes projetos: 
+Durante o Módulo de Modelagem 3D, trabalharemos os seguintes projetos: 
 
 ## Sólido 001 
 
