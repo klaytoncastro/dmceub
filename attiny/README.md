@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este projeto visa desenvolver o esquemático e a PCB para um Minigame/Keychain usando o microcontrolador ATtiny85, acoplado a um display de matriz de LEDs. Este dispositivo é ideal para jogos portáteis simples, como Space Invaders, configurado em um formato de mini-chaveiro.
+Este projeto visa desenvolver o esquemático e a PCB para um Minigame/Keychain usando o microcontrolador ATtiny85, um microcontrolador da Atmel/Microchip, que possui recursos semelhantes aos Arduinos, um pouco mais modestos que o ATmega328P, sendo útil para projetos mais miniaturizáveis, acoplado a um display de matriz de LEDs. Este tipo de dispositivo é ideal para desenvolvimento de jogos portáteis simples, como Space Invaders, configurado em um formato de mini-chaveiro.
 
 ## Projeto Esquemático
 
