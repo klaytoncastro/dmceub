@@ -6,16 +6,9 @@ Bem-vindo ao repositório da disciplina Design Mediado por Computador (DMC). A d
 
 ## Modelagem em Software
 
-Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyEDA, Eagle, Altium, KiCad, TinkerCAD, dentre outros, são hoje fundamentais para a materialização de conceitos, transformando protótipos em produtos funcionais.
+Softwares de CAD (Computer-Aided Design) como AutoCAD, Fusion360, Proteus, EasyEDA, Eagle, Altium, KiCad, TinkerCAD, Blender, dentre outros, são hoje fundamentais para a materialização de conceitos, transformando protótipos em produtos funcionais.
 
 ##  O que são placas de circuito impresso (PCIs)?
-
-No contexto do design de PCIs, estes softwares facilitam a montagem de esquemas eletrônicos e a modelagem da PCI, oferecendo ferramentas para:
-
-- Desenho de trilhas de cobre
-- Posicionamento de componentes eletrônicos
-- Verificação de erros (DRC - Design Rule Check e ERC - Electrical Rule Check)
-
 
 Uma vez que o projeto de engenharia de um dispositivo eletrônico tenha sido testado com sucesso por meio de simulação e prototipagem em uma protoboard, é hora de fazer a transição para uma PCI. 
 
@@ -28,6 +21,11 @@ O fluxo de trabalho de um projeto de PCI é o seguinte:
 - Exportação dos arquivos "Gerber"
 - Fabricação por empresas especializadas
 
+No contexto do design de PCIs, utilizaremos o EasyEDA, visando a montagem de esquemas eletrônicos e a modelagem da PCI, oferecendo ferramentas para:
+
+- Desenho de trilhas de cobre
+- Posicionamento de componentes eletrônicos
+- Verificação de erros (DRC - Design Rule Check e ERC - Electrical Rule Check)
 
 <!--
 
