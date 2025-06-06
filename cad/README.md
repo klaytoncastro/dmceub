@@ -40,7 +40,7 @@ Utilizando o TinkerCAD, modele o sólido a seguir:
 
 Utilizando o TinkerCAD, modele o sólido a seguir:
 
-<img src="/img/CAD_3D_006.png" alt="Modelo 3D">
+<img src="/img/CAD_3D_007.png" alt="Modelo 3D">
 
 <!--
 
