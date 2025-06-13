@@ -30,17 +30,19 @@ Utilizando o TinkerCAD, modele o sólido a seguir:
 
 <img src="/img/CAD_3D_004.png" alt="Modelo 3D">
 
-## Modelo 005 
+## Modelo 007 
 
 Utilizando o TinkerCAD, modele o sólido a seguir:
 
-<img src="/img/CAD_3D_005.png" alt="Modelo 3D">
+<img src="/img/CAD_007.png" alt="Modelo 3D">
 
-## Modelo 006
+## Modelo 008
 
 Utilizando o TinkerCAD, modele o sólido a seguir:
 
-<img src="/img/CAD_3D_008.png" alt="Modelo 3D">
+<img src="/img/CAD_008.png" alt="Modelo 3D">
+
+
 
 <!--
 
